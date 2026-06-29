@@ -1,5 +1,18 @@
 <?php
 
+/**
+ * 
+ * PHP Mikrotik Billing (https://github.com/hotspotbilling/phpnuxbill/)
+ *
+ * Finance Plugin for PHP Mikrotik Billing
+ *
+ * @author: Gerandonk Mods <noc@igrwifi.my.id>
+ * Website: https://igrwifi.my.id/
+ * GitHub: https://github.com/gerandonk/
+ * Telegram: https://t.me/sklitinov/
+ *
+ **/
+
 register_menu("Finance", true, "expenditure", 'AFTER_SETTINGS', 'glyphicon glyphicon-shopping-cart', '', '', ['Admin', 'SuperAdmin']);
 
 function expenditure_create_tables()
