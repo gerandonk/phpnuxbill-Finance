@@ -13,7 +13,7 @@
  *
  **/
 
-register_menu("Finance", true, "expenditure", 'AFTER_SETTINGS', 'glyphicon glyphicon-shopping-cart', '', '', ['Admin', 'SuperAdmin']);
+register_menu("Finance", true, "expenditure", 'AFTER_SETTINGS', 'glyphicon glyphicon-shopping-cart', 'New', 'green', ['Admin', 'SuperAdmin']);
 
 function expenditure_create_tables()
 {
